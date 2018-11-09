@@ -27,7 +27,8 @@
 				productosController::main($action);
 				break;
 			case 'servicios':
-				
+				require "Controladores/serviciosController.php";
+				serviciosController::main($action);
 				break;
 			case 'usuarios':
 				# code...
