@@ -29,8 +29,13 @@
 				<td><?= $servicios->solicitud; ?></td>
 				<td><?= $servicios->alquiler; ?></td>
 				<td> 
+<<<<<<< HEAD
                     <a href="index.php?c=servicios&a=update&id=<?=$servicios->id_servicio ?>">Editar</a> 
                     <a href="index.php?c=servicios&a=delete&id=<?=$servicios->id_servicio ?>">Eliminar</a>
+=======
+                    <a href="index.php?c=usuarios&a=update&id=<?=$usuario->id_usuarios ?>">Editar</a> 
+                    <a href="index.php?c=usuarios&a=delete&id=<?=$usuario->id_usuarios ?>">Eliminar</a>
+>>>>>>> 9c2057ad5af31f2d5b56ae901786246094a7210e
                 </td>
 			</tr>
 			<?php } ?>

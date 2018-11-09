@@ -57,6 +57,7 @@ class serviciosController{
 				require "Vistas/servicios/create.php";
 			}
 
+<<<<<<< HEAD
 			//eliminar
 			private function delete(){
 			$servicio = new servicios();
@@ -81,6 +82,8 @@ class serviciosController{
 	            }
 			
 			}
+=======
+>>>>>>> 9c2057ad5af31f2d5b56ae901786246094a7210e
 
 		}
 
