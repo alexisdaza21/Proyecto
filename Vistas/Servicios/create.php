@@ -21,7 +21,11 @@
 			<option value="1">num.01</option>
 		</select>
 
+<<<<<<< HEAD
 		<button type="submit">Crear servicio</button>
+=======
+		<button type="submit">Crear usuario</button>
+>>>>>>> 9c2057ad5af31f2d5b56ae901786246094a7210e
 	</form>
 </body>
 </html>

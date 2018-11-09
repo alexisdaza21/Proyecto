@@ -19,6 +19,10 @@ require_once("Conexion.php");
 			$conexion =$this->getConexion();
 			$stm = $conexion->prepare("SELECT * FROM servicios");
 			$stm->setFetchMode(PDO::FETCH_CLASS,'servicios');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9c2057ad5af31f2d5b56ae901786246094a7210e
 			$servicio = array();
 			$stm->execute();
 
@@ -40,6 +44,7 @@ require_once("Conexion.php");
 			return $stm->execute((array)$this);
 		}
 
+<<<<<<< HEAD
 		//eliminar
 		   public function delete($id){ 
 			$conexion =$this->getConexion();
@@ -72,6 +77,8 @@ require_once("Conexion.php");
             $stm->execute();
 			}
 
+=======
+>>>>>>> 9c2057ad5af31f2d5b56ae901786246094a7210e
 
 	}
 
