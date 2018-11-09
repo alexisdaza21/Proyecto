@@ -33,7 +33,8 @@
 				# code...
 				break;
 			case 'vehiculos':
-				# code...
+				require "Contoladores/vehiculosController";
+				vehiculosController::main($action);
 				break;
 			default;
 				require "Controladores/homeController.php";
